@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="aomine">
+  <meta name="description" content="colegio Bertolt Brecht">
+  <meta name="keywords" content="colegio, Bertolt brecht, colegio bertolt brecht">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <!-- Mis estilos CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/datos.css">
+  <link rel="stylesheet" href="css/responsive-media.css">
+  <!--icono-->
+  <link rel="shortcut icon" href="img/iconos/Bertolt Brecht.ico">
+
+  <title>Bertolt Brecht</title>
+</head>
+<body>
+  <div class="ml-3">
+    <h2>Alumnos Matriculados</h2>
+    <ul>
+      <li><a href="datos-alumnos/3-anios.php">3 años</a></li><br>
+      <li><a href="datos-alumnos/4-anios.php">4 años</a></li><br>
+      <li><a href="datos-alumnos/5-anios.php">5 años</a></li><br>
+      <li><a href="datos-alumnos/1ero-primaria.php">1ero de primaria</a></li><br>
+      <li><a href="datos-alumnos/2do-primaria.php">2do de primaria</a></li><br>
+      <li><a href="datos-alumnos/3ro-primaria.php">3ro de primaria</a></li><br>
+      <li><a href="datos-alumnos/4to-primaria.php">4to de primaria</a></li><br>
+      <li><a href="datos-alumnos/5to-primaria.php">5to de primaria</a></li><br>
+      <li><a href="datos-alumnos/6to-primaria.php">6to de primaria</a></li><br>
+      <li><a href="datos-alumnos/1ero-secundaria.php">1ero de secundaria</a></li><br>
+      <li><a href="datos-alumnos/2do-secundaria.php">2do de secundaria</a></li><br>
+      <li><a href="datos-alumnos/3ro-secundaria.php">3ro de secundaria</a></li><br>
+      <li><a href="datos-alumnos/4to-secundaria.php">4to de secundaria</a></li><br>
+      <li><a href="datos-alumnos/5to-secundaria.php">5to de secundaria</a></li>
+    </ul>
+    <a href="contacto.html" class="volver">Volver</a>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap/bootstrap.js"></script>
+  <!--aparecer flecha-->
+  <script>
+    $(window).scroll(function() {
+      if ($("#flecha-1").offset().top > 400) {
+        $("#flecha-1").addClass("d-block");
+      } else {
+        $("#flecha-1").removeClass("d-block");
+      }
+    });
+  </script>
+  <!--  parallax effect-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+                });
+            });
+    });
+  </script>
+</body>
+</html>

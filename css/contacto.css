@@ -1,0 +1,42 @@
+/* inicio de mapa y form ---------------------------------*/
+.border-azul{
+	border: 5px solid #007bff;
+	border-radius: 10px ;
+}
+.map{
+	height: 520px;
+	transition: all 0.5s ease;
+}
+.form-label{
+	font-family: comic sans ms;
+}
+form{
+	border: 5px solid #007bff;
+
+	border-radius: 10px;
+	transition: all 0.5s ease;
+}
+.input{
+	height: 35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+	transition: all 0.5s ease;
+}
+.textarea{
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+	transition: all 0.5s ease;
+}
+.submit{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	border: 0px;
+	background-color: #f7af03;
+	font-size: 20px;
+	cursor: pointer;
+}
+.submit:hover{
+	font-size: 22px;
+	box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.5);
+}
+/* fin de mapa y form ------------------------------------*/

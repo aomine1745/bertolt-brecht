@@ -1,0 +1,32 @@
+body{
+	background-image: url(../img/fondo-tablas.jpg);
+	/* 	background-position: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+table { 
+	border-collapse: collapse; 
+}
+/* Zebra striping */
+table tr:nth-of-type(odd) { 
+	background: #eee; 
+}
+table tr th { 
+	background: #333; 
+	color: white;  
+}
+table tr td, table tr th{ 
+	border: 1px solid #929292; 
+	padding: 6px 20px 6px 6px; 
+	text-align: left;
+}
+a{
+	font-size: 25px;
+	text-decoration: none;
+	color: #000000;
+	font-family: impact;
+	margin-left: 10px;
+}
+a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="aomine">
+  <meta name="description" content="colegio Bertolt Brecht">
+  <meta name="keywords" content="colegio, Bertolt brecht, colegio bertolt brecht">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <!-- Mis estilos CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/responsive-media.css">
+  <!--icono-->
+  <link rel="shortcut icon" href="img/iconos/Bertolt Brecht.ico">
+
+  <title>Bertolt Brecht</title>
+</head>
+<body>
+  <!--inicio de BB-->
+  <div class="bb d-flex align-items-center justify-content-center">
+    <div class="text-center">
+      <div class="animacion-1">
+        <ul class="animacion-ul-1">
+          <li class="bb-li mt-2 mb-5">Colegio</li>
+          <li class="bb-li mt-4 mb-3">Academia</li>
+          <li class="bb-li ">CEBA</li>
+        </ul>
+      </div>
+      <h2 class="bb-h2">BERTOLT BRECHT</h2>
+    </div>
+  </div>
+  <!--fin de BB-->
+
+  <!--inicio de fondo para celular-->
+  <section class="fondo-celular d-block d-md-none"  data-type="parallax_section" data-speed="10"></section>
+  <!--fin de fondo para celular-->
+
+  <!--inicio de slider-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active d-none d-md-block"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="d-none d-md-block"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="d-none d-md-block"></li>
+    </ol>
+    <div class="carousel-inner d-none d-md-block">
+      <div class="carousel-item active">
+        <section class="d-block w-100 slider-1" data-type="parallax_section" data-speed="10"></section>
+      </div>
+      <div class="carousel-item">
+        <section class="d-block w-100 slider-2" data-type="parallax_section" data-speed="10"></section>
+      </div>
+      <div class="carousel-item">
+        <section class="d-block w-100 slider-3" data-type="parallax_section" data-speed="10"></section>
+      </div>
+    </div>
+    <div class="d-none d-md-block">
+      <a class="carousel-control-prev previus-next" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" class=""></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </div>
+    <div class="d-none d-md-block">
+      <a class="carousel-control-next previus-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" class=""></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!--find de slider-->
+
+  <!--inicio de navbar-->
+  <nav class="navbar navbar-dark bg-azul navbar-expand-md sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" class="d-inline-block align-top logo-navbar" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="navbar-nav text-center ml-auto">
+          <a class="nav-item nav-link item-conf mx-2" href="index.html">Inicio</a>
+          <a class="nav-item nav-link item-conf  mx-2" href="nosotros.html">Nosotros</a>
+          <a class="nav-item nav-link item-conf  mx-2" href="servicios.html">Servicios</a>
+          <a class="nav-item nav-link item-conf  mx-2 active" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--fin de navbar-->
+
+  <!--inicio de mapa y form-->
+  <section class="container">
+    <div class="row">
+      <div class="col my-5 py-5 d-flex justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1950.7073910348772!2d-75.2004436!3d-12.0837316!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1530017680696" class="map  border-azul" frameborder="0" allowfullscreen"></iframe>
+      </div>
+      <div class="col my-5 py-5 d-flex justify-content-center">
+        <form action="registrar.php" method="POST" class="px-3 py-3" class="form">
+          <p>
+            <label for="nombre" class="form-label">►Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" class="input" required autofocus>
+            <p>
+              <label for="Correo" class="form-label">►Direccion de Correo:</label>
+              <br>
+              <input type="email" id="correo" name="correo" placeholder="correo electronico" class="input" required>
+              <p>
+                <label for="telefono" class="form-label">►telefono:</label>
+                <br>
+                <input type="tel" id="telefono" name="telefono" placeholder="número de telefono" class="input" required>
+                <p>
+                  <label for="Mensaje" class="form-label">►Mensaje:</label>
+                  <br>
+                  <textarea id="mensaje" name="mensaje" placeholder=" Introduzca aqui su mensaje" class="textarea" required></textarea>
+                  <br>
+                  <br>
+                  <div class="text-center">
+                    <input type="submit" value="Enviar" class="submit">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!--  fin de mapa y form-->
+
+          <!--inicio de footer-->
+          <footer class="bg-azul text-light" role="contentinfo">
+            <div class="container-fluid">
+              <div class="row pt-3 pb-4">
+                <div class="col-sm-6 col-md-3">
+                  <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-footer" alt="logo"></a>
+                  <br>
+                  <small>Bertolt Brecht, Copyright © 2018</small>
+                </div>
+                <div class="col-sm-6 col-md-3 align-self-center ">
+                  <a href="#" class="text-light"><img src="img/iconos/phone.ico" class="size-datos" alt="telefono">(064) 212189 - (064) 212242</a>
+                </div>
+                <div class="col-sm-6 col-md-3 align-self-center">
+                  <a href="#" class="text-light"><img src="img/iconos/map-marker.ico" class="size-datos" alt="telefono">Calle Real N° 859 / Chilca - Huancayo</a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <p class="lead">Síguenos</p>
+                  <a href="https://www.facebook.com/Colegio-Bertolt-Brecht-Chilca-Huancayo-1502142100063670/"><img src="img/facebook.svg" class="size-sociales-f bg-light opacity-sociales-f" alt="Facebook"></a>
+                  <a href="#"><img src="img/twitter.svg" class="size-sociales-f opacity-sociales-f" alt="Twitter"></a>
+                  <a href="#"><img src="img/youtube.svg" class="size-sociales-f opacity-sociales-f" alt="Youtube"></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!--fin de footer-->
+
+          <!--inicio de sociales-->
+          <div class="sociales">
+            <a href="https://www.facebook.com/Colegio-Bertolt-Brecht-Chilca-Huancayo-1502142100063670/"><img src="img/facebook.svg" class="size-sociales opacity-sociales sociales-borde" alt="Facebook"></a>
+            <a href="#"><img src="img/twitter.svg" class="size-sociales opacity-sociales sociales-borde" alt="Twitter"></a>
+            <a href="#"><img src="img/youtube.svg" class="size-sociales opacity-sociales sociales-borde" alt="Youtube"></a>
+            <a href="http://localhost/moodle"><img src="img/aula.svg" class="size-sociales opacity-sociales sociales-borde" alt="Aula"></a>
+            <a href="matriculas.html"><img src="img/matriculados.svg" class="size-sociales opacity-sociales sociales-borde alt="matriculados"></a>
+          </div>
+          <!--fin de sociales-->
+
+          <!--inicio de flecha-->
+          <div id="flecha-1" class="flecha d-none">
+            <a href="#" class="opacity-flecha"><img id="flecha-1" src="img/arrow-up.svg" alt="flecha" class="size-flecha"></a>
+          </div>
+          <!--fin de flecha-->
+
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="js/bootstrap/bootstrap.js"></script>
+          <!--aparecer flecha-->
+          <script>
+            $(window).scroll(function() {
+              if ($("#flecha-1").offset().top > 400) {
+                $("#flecha-1").addClass("d-block");
+              } else {
+                $("#flecha-1").removeClass("d-block");
+              }
+            });
+          </script>
+          <!--  parallax effect-->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+          <script>
+            $(document).ready(function(){
+              $('section[data-type="parallax_section"]').each(function(){
+              var $bgobj = $(this); // Variable para asignacion de objeto
+              $(window).scroll(function() {
+                $window = $(window);
+                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+                  // cordinadas del background
+                  var coords = '50% '+ yPos + 'px';
+                  // moviendo el background
+                  $bgobj.css({ backgroundPosition: coords });
+                });
+            });
+            });
+          </script>
+        </body>
+        </html>

@@ -1,0 +1,245 @@
+/* inicio de fuentes --------------------------------*/
+@font-face{
+	font-family: "Luna";
+	src:url("../font/Luna.ttf") format("truetype");
+}
+@font-face{
+	font-family: "shaka pow";
+	src:url("../font/Shaka Pow.ttf") format("truetype");
+}
+@font-face{
+	font-family: "hanged letters";
+	src:url("../font/Hanged Letters.ttf") format("truetype");
+}
+/* fin de fuentes -----------------------------------*/
+
+/* inicio de general --------------------------------*/
+*{
+	scroll-behavior: smooth;
+}
+body{ 
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+/* fin de general -----------------------------------*/
+
+/* inicio de aomine-styles */
+.rojiso{
+	color: #b00725;
+}
+.azulejo{
+	color: #3c539a;
+}
+/* fin de aomine styles */
+
+/* 	inicio de BB ------------------------------------*/
+.bb{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	z-index: 1;
+}
+.animacion-1{
+	overflow: hidden;
+}
+.animacion-ul-1{
+	list-style: none;
+	padding-left: 0.375rem; /* 6px 1rem=16px */
+	padding-right: 0.3125rem; /* 5px 1rem=16px */
+	animation: rotacion 6s infinite;
+}
+.bb-li{
+	font-family: Luna;	
+	color: #fff;
+	letter-spacing: 0.3rem; /* 4.8px 1rem=16px */
+	transition: all 0.5s ease;
+}
+.bb-h2{
+	font-family: shaka pow;	
+	color: #007eff;
+	letter-spacing: 0.2rem; /* 3.2px 1rem=16px */
+	transition: all 0.5s ease;
+}
+/* 	fin de fondo para BB ----------------------------*/
+
+/* inicio del fondo para celular --------------------*/
+.fondo-celular{
+	background-image: url(../img/bg-6.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100vw;
+}
+/* fin del fondo para celular -----------------------*/
+
+/* inicio de slider ---------------------------------*/
+.slider-1{
+	background-image: url(../img/bg-1.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	width: 100vw;
+}
+.slider-2{
+	background-image: url(../img/bg-2.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	width: 100vw;
+}
+.slider-3{
+	background-image: url(../img/bg-3.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	width: 100vw;
+}
+.previus-next{
+	position: absolute;
+	z-index: 2;
+}
+/* fin de slider ------------------------------------*/
+
+/* inicio del navbar --------------------------------*/
+.bg-azul{
+	background: #0b64c3 !important;
+}
+.logo-navbar{
+	width: 12rem; /* 80px 1rem=16px */
+	height: 2.5rem; /* 35px 1rem=16px */
+	animation: logo 4s infinite;
+}
+@keyframes logo {
+	0% {transform: rotate(-3deg); opacity: 0.5;}
+	25% {transform: rotate(3deg); opacity: 1;}
+	50% {transform: rotate(-3deg); opacity: 0.5;}
+	75% {transform: rotate(3deg); opacity: 1;}
+	100% {transform: rotate(-3deg); opacity: 0.5;}
+}
+.item-conf{
+	/* color: #ffffff !important; */
+	font-size: 1.1rem;
+} 
+.item-conf:hover{
+	color: #ff3616 !important;
+	font-size: 1.2rem;
+}
+/* fin del navbar ----------------------------------*/
+
+/* inicio de card-1 --------------------------------*/
+.box-shadow-efect-1:hover{
+	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+	position: relative;
+	top: -0.625rem; /* 10px 1rem=16px */
+	border: none;
+}
+/* fin de card-1 ------------------------------------*/
+
+/* inicio de ambientes ------------------------------*/
+.img-ambiente{
+	background: url(../img/ambientes.jpg);
+	height: 400px;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* fin de ambientes  ---------------------------------*/
+
+/* inicio de actividades -----------------------------*/
+.box-shadow-efect-2:hover{
+	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+	position: relative;
+	top: -0.625rem; /* 10px 1rem=16px */
+	border: none;
+}
+/* fin de actividades --------------------------------*/
+
+/* inicio de noticias --------------------------------*/
+.img-noticias{
+	background-image: url(../img/noticias.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* fin de noticias -----------------------------------*/
+
+/* inicio de footer ----------------------------------*/
+.bg-azul{
+	background: #0b64c3;
+}
+.logo-footer{
+	width: 10rem; /* 80px 1rem=16px */
+	height: 2.1875rem; /* 35px 1rem=16px */
+}
+.size-datos{
+	width: 2rem;
+	height: 2rem;
+}
+.size-sociales-f{
+	width: 2.5rem; /* 40px 1rem=16px */
+	height: 2.5rem; /* 40px 1rem=16px */
+}
+.opacity-sociales-f{
+	opacity: 0.6;
+}
+.opacity-sociales-f:hover{
+	opacity: 1;
+}
+/* final de footer -----------------------------------*/
+
+/* inicio de sociales --------------------------------*/
+.sociales{
+	position: fixed;
+	top: 20%;
+	right: 0;
+	z-index: 3;
+}
+.size-sociales{
+	width: 2.5rem; /* 40px 1rem=16px */
+	height: 2.5rem; /* 40px 1rem=16px */
+	margin-bottom: 1px;
+}
+.opacity-sociales{
+	display: block;
+	opacity: 0.6;
+	transition: all 0.5s ease;
+}
+.opacity-sociales:hover{
+	opacity: 1;
+}
+.sociales-borde{
+	border-radius: 50%;
+}
+/* fin de sociales -----------------------------------*/
+
+/* inicio de flecha ----------------------------------*/
+.flecha{
+	position: fixed;
+	top: 70%;
+	left: 0;
+}
+.size-flecha{
+	width: 1.875rem; /* 30px 1rem=16px */
+	height: 1.875rem; /* 30px 1rem=16px */
+	transition: all 0.5s ease;
+}
+.opacity-flecha{
+	display: block;
+	opacity: 0.6;
+	transition: all 0.5s ease;
+}
+.opacity-flecha:hover{
+	opacity: 1;
+}
+/* fin de flecha -------------------------------------*/
